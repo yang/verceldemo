@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 32px;
+  border-radius: 16px;
+  padding: 0px 8px;
+  border: 1px solid rgb(234, 234, 234) /* plasmic-token: kxi5Mc3g3Hr4H5 */;
+}
+.slotChildren {
+  font-size: 14px;
+  color: rgb(68, 68, 68) /* plasmic-token: PbJ3X-5lkB1nq6 */;
+  line-height: 1;
+}

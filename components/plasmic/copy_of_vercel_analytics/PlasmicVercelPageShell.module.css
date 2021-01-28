@@ -1,0 +1,6 @@
+.root:global(.__wab_instance) {
+  position: relative;
+}
+.analyticsPageContent:global(.__wab_instance) {
+  position: relative;
+}

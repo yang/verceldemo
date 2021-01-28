@@ -1,0 +1,348 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "./components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+      "projectName": "Copy of Vercel Analytics",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_vercel_analytics/plasmic_copy_of_vercel_analytics.module.css",
+      "components": [
+        {
+          "id": "2aYdWqZ9T1xmx",
+          "name": "VercelPageShell",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicVercelPageShell.tsx",
+          "importSpec": {
+            "modulePath": "VercelPageShell.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicVercelPageShell.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "wsu9Jbk2t-1HP",
+          "name": "PerfScore",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicPerfScore.tsx",
+          "importSpec": {
+            "modulePath": "PerfScore.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicPerfScore.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2Z0w-3TeyDKh4",
+          "name": "Separator",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicSeparator.tsx",
+          "importSpec": {
+            "modulePath": "Separator.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicSeparator.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8czuQRxAQREBN",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PRuvZwTRZwo1z",
+          "name": "NumListItem",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicNumListItem.tsx",
+          "importSpec": {
+            "modulePath": "NumListItem.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicNumListItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5_G6sg__inCAa",
+          "name": "FooterExpando",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicFooterExpando.tsx",
+          "importSpec": {
+            "modulePath": "FooterExpando.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicFooterExpando.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "kuD0QmnQpXDwF",
+          "name": "Badge",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicBadge.tsx",
+          "importSpec": {
+            "modulePath": "Badge.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicBadge.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6DdYh-ZzrDW2s",
+          "name": "FooterLink",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicFooterLink.tsx",
+          "importSpec": {
+            "modulePath": "FooterLink.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicFooterLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "io0qhXpvcujmk",
+          "name": "Social",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicSocial.tsx",
+          "importSpec": {
+            "modulePath": "Social.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicSocial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "bNHexnLPptchK",
+          "name": "Status",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicStatus.tsx",
+          "importSpec": {
+            "modulePath": "Status.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicStatus.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UWJB2Ar9w-6vp",
+          "name": "HeaderLink",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicHeaderLink.tsx",
+          "importSpec": {
+            "modulePath": "HeaderLink.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicHeaderLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "i1DREZxYhATTM",
+          "name": "LinkButton",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicLinkButton.tsx",
+          "importSpec": {
+            "modulePath": "LinkButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicLinkButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "b1vlgXoKN4IXE",
+          "name": "MainScore",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicMainScore.tsx",
+          "importSpec": {
+            "modulePath": "MainScore.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicMainScore.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4o34z0-A3Cr0-W",
+          "name": "AnalyticsPageContent",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicAnalyticsPageContent.tsx",
+          "importSpec": {
+            "modulePath": "AnalyticsPageContent.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicAnalyticsPageContent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vamLSxR0rphoV8",
+          "name": "LargeScoreCard",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicLargeScoreCard.tsx",
+          "importSpec": {
+            "modulePath": "LargeScoreCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicLargeScoreCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2XZOm-2P99X-no",
+          "name": "SmallScoreCard",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicSmallScoreCard.tsx",
+          "importSpec": {
+            "modulePath": "SmallScoreCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicSmallScoreCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SVMA0EAGaHP",
+          "name": "AnalyticsPage",
+          "type": "managed",
+          "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+          "renderModuleFilePath": "plasmic/copy_of_vercel_analytics/PlasmicAnalyticsPage.tsx",
+          "importSpec": {
+            "modulePath": "AnalyticsPage.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_vercel_analytics/PlasmicAnalyticsPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "_pNVn0iqvLa_-b",
+          "name": "VercelLogoIcon",
+          "moduleFilePath": "plasmic/copy_of_vercel_analytics/icons/PlasmicIcon__VercelLogo.tsx"
+        },
+        {
+          "id": "Mp3zdd4eF-qVuI",
+          "name": "VercelLogoMarkIcon",
+          "moduleFilePath": "plasmic/copy_of_vercel_analytics/icons/PlasmicIcon__VercelLogoMark.tsx"
+        },
+        {
+          "id": "ps9TKJbcKmAINM",
+          "name": "GithubIcon",
+          "moduleFilePath": "plasmic/copy_of_vercel_analytics/icons/PlasmicIcon__Github.tsx"
+        },
+        {
+          "id": "_Lw8B3f2DTrRvc",
+          "name": "TwitterIcon",
+          "moduleFilePath": "plasmic/copy_of_vercel_analytics/icons/PlasmicIcon__Twitter.tsx"
+        },
+        {
+          "id": "MzG9RVjkXp54Li",
+          "name": "LargeScoreIcon",
+          "moduleFilePath": "plasmic/copy_of_vercel_analytics/icons/PlasmicIcon__LargeScore.tsx"
+        },
+        {
+          "id": "4KWfqvbjRu2Ogd",
+          "name": "SmallScoreIcon",
+          "moduleFilePath": "plasmic/copy_of_vercel_analytics/icons/PlasmicIcon__SmallScore.tsx"
+        },
+        {
+          "id": "XoR6GKD1aVqDHN",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/copy_of_vercel_analytics/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "DS23SiCPM5vj9x",
+          "name": "vercel.com_analytics(Laptop with MDPI screen).png",
+          "filePath": "../public/plasmic/copy_of_vercel_analytics/images/vercelcomAnalyticsLaptopWithMdpiScreenpng.png"
+        },
+        {
+          "id": "902dskf_gRXz7B",
+          "name": "vercel.com_analytics(Moto G4).png",
+          "filePath": "../public/plasmic/copy_of_vercel_analytics/images/vercelcomAnalyticsMotoG4Png.jpeg"
+        },
+        {
+          "id": "sp19WV1U_jpWf5",
+          "name": "menu",
+          "filePath": "../public/plasmic/copy_of_vercel_analytics/images/menu.png"
+        },
+        {
+          "id": "X-dM6InIacaa0Q",
+          "name": "mobile score animation",
+          "filePath": "../public/plasmic/copy_of_vercel_analytics/images/mobileScoreAnimation.png"
+        },
+        {
+          "id": "8QYiG4yiIY0iTU",
+          "name": "dashboard",
+          "filePath": "../public/plasmic/copy_of_vercel_analytics/images/dashboard.png"
+        },
+        {
+          "id": "VVZmJ_EeCUWxa-",
+          "name": "dashboard-mobile.png",
+          "filePath": "../public/plasmic/copy_of_vercel_analytics/images/dashboardMobilepng.png"
+        },
+        {
+          "id": "YL44g4wwo3ZtCC",
+          "name": "deploy card",
+          "filePath": "../public/plasmic/copy_of_vercel_analytics/images/deployCard.png"
+        },
+        {
+          "id": "2jlIWo5nH-1uMZ",
+          "name": "desktop score animation",
+          "filePath": "../public/plasmic/copy_of_vercel_analytics/images/desktopScoreAnimation.png"
+        }
+      ],
+      "jsBundleThemes": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "l49ipgPtkJOvrB",
+        "name": "Screen",
+        "projectId": "iqg5FKVqRnpt5mRWXzEUTy",
+        "contextFilePath": "plasmic/copy_of_vercel_analytics/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.95",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.95/dist/plasmic.schema.json"
+}

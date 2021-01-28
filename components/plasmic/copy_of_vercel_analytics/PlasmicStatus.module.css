@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  position: relative;
+  border-radius: 16px;
+  padding: 4px 12px;
+  border: 1px solid rgb(234, 234, 234) /* plasmic-token: kxi5Mc3g3Hr4H5 */;
+}
+.box___3O3Ms {
+  font-size: 14px;
+  font-weight: 500;
+}
+.box__nzpfq {
+  display: block;
+  position: relative;
+  background-color: rgb(0, 112, 243) /* plasmic-token: 1DGmvJ_9Wh0rnV */;
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.box__dz2Hp {
+  font-size: 14px;
+  color: rgb(0, 112, 243) /* plasmic-token: 1DGmvJ_9Wh0rnV */;
+  font-weight: 500;
+}
