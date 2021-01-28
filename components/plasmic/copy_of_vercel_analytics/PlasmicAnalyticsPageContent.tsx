@@ -124,7 +124,7 @@ function PlasmicAnalyticsPageContent__RenderFunc(props: {
               sty.box__ttMkf
             )}
           >
-            {"Your True Lighthouse Score"}
+            {"Your True Lighthouse Score."}
           </div>
 
           <h3
